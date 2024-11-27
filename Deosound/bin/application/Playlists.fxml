@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="HomePane" prefHeight="611.0" prefWidth="800.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Pane layoutX="1.0" layoutY="1.0" prefHeight="611.0" prefWidth="219.0" style="-fx-background-color: #202026;">
+			<children>
+				<Pane layoutX="10.0" layoutY="81.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f00;">
+					<children>
+						<ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../../../../Pictures/appMusic/img/artworks-qyypjkhTOzZMkyUF-BBy3RQ-t500x500.jpg" />
+							</image>
+						</ImageView>
+					</children>
+				</Pane>
+				<ImageView fitHeight="26.0" fitWidth="26.0" layoutX="52.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../../../../Pictures/appMusic/MyIcon/add_24dp_999_FILL0_wght400_GRAD0_opsz24.png" />
+					</image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+				</ImageView>
+				<ImageView fitHeight="19.0" fitWidth="26.0" layoutX="100.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../../../../Pictures/appMusic/MyIcon/Favourites.png" />
+					</image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+				</ImageView>
+				<ImageView fitHeight="19.0" fitWidth="26.0" layoutX="140.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@../../../../Pictures/appMusic/MyIcon/Partilha.png" />
+					</image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+				</ImageView>
+            <Label fx:id="CantorMusicaDestaquePlayList" layoutX="9.0" layoutY="333.0" prefHeight="27.0" prefWidth="207.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+			</children>
+		</Pane>
+	</children>
+</AnchorPane>
